@@ -53,9 +53,11 @@ public class ConsoleInput {
                 System.out.println(userInput + " is not in the word");
                 System.out.println("============= HANGMAN ==============");
                 System.out.println("============= GAME END ==============");
+                Toolkit.getDefaultToolkit().beep();
                 System.exit(0);
             	}
         	Toolkit.getDefaultToolkit().beep();
+        	input.close();
             return 0;
             }
     }
