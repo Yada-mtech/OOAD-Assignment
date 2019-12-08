@@ -2,7 +2,9 @@
 <suite name="Suite" parallel="false">
   <test name="Test">
     <classes>
-      <class name="com.ooad.HangmanTest"/>
+      <class name="com.test.HangmanTest"/>
+      <class name="com.test.ConsoleInputTest"/>
+      <class name="com.test.WordReaderTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -12,7 +12,7 @@ public class Hangman{
 	public static void main(String[] args) {
         String[] words = null;
         WordReader readFile = new WordReader();
-        String filename = "C:/Users/Akshith/eclipse-workspace/ooad-assignment/words.txt";
+        String filename = "C:/Users/Akshith/git/OOAD-Assignment/words.txt";
         try {
         	words=readFile.readLines(filename);
         }catch(IOException e)

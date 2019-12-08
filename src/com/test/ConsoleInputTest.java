@@ -15,7 +15,7 @@ public class ConsoleInputTest {
 	  carray[3]='g';
 	  carray[4]='o';
 	  
-	  String cword="apple";
+	  String cword="mango";
 	  int result=3;
 	  System.out.println(" enterLetter the result is +++++" + ConsoleInput.enterLetter(cword,carray,1));
 	  
@@ -55,7 +55,7 @@ public class ConsoleInputTest {
 	  carray1[2]='n';
 	  carray1[3]='*';
 	  carray1[4]='o';
-	  char c = 'm';
+	  //char c = 'm';
 	  System.out.println(" printWord the result is +++++" + ConsoleInput.printWord("mango", carray1));
 	  AssertJUnit.assertTrue(ConsoleInput.printWord("mango", carray1));  }
 
